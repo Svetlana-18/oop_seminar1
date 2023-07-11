@@ -5,11 +5,11 @@ public class HotDrink extends Product {
     private float hotDrinkVolume;
 
     // Свойства
-    public float hotDrinkVolume() {
+    public float getHotDrinkVolume() {
         return hotDrinkVolume;
     }
 
-    public void setBottleVolume(float bottleVolume) {
+    public void setHotDrinkVolume(float bottleVolume) {
         this.hotDrinkVolume = bottleVolume;
     }
 
