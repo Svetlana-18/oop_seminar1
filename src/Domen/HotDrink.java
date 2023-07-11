@@ -19,9 +19,9 @@ public class HotDrink extends Product {
         this.hotDrinkTemp = (int) 0f;
     }
 
-    public HotDrink(int price, int place, String name, long id, int bottleVolume) {
+    public HotDrink(int price, int place, String name, long id, int hotDrinkTemp) {
         super(price, place, name, id);
-        this.hotDrinkTemp = bottleVolume;
+        this.hotDrinkTemp = hotDrinkTemp;
     }
 
     @Override
