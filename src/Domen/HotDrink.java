@@ -5,11 +5,11 @@ public class HotDrink extends Product {
     private int hotDrinkTemp;
 
     // Свойства
-    public int hotDrinkTemp() {
+    public int gethotDrinkTemp() {
         return hotDrinkTemp;
     }
 
-    public void setBottleVolume(int hotDrinkTemp) {
+    public void sethotDrinkTemp(int hotDrinkTemp) {
         this.hotDrinkTemp = hotDrinkTemp;
     }
 
