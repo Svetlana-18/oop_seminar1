@@ -2,31 +2,31 @@ package Domen;
 
 public class HotDrink extends Product {
     // Поля
-    private float hotDrinkVolume;
+    private int hotDrinkTemp;
 
     // Свойства
-    public float getHotDrinkVolume() {
-        return hotDrinkVolume;
+    public int hotDrinkTemp() {
+        return hotDrinkTemp;
     }
 
-    public void setHotDrinkVolume(float bottleVolume) {
-        this.hotDrinkVolume = bottleVolume;
+    public void setBottleVolume(int hotDrinkTemp) {
+        this.hotDrinkTemp = hotDrinkTemp;
     }
 
     // конструкторы
     public HotDrink(int price, int place, String name, long id) {
         super(price, place, name, id);
-        this.hotDrinkVolume = 0f;
+        this.hotDrinkTemp = (int) 0f;
     }
 
     public HotDrink(int price, int place, String name, long id, int bottleVolume) {
         super(price, place, name, id);
-        this.hotDrinkVolume = bottleVolume;
+        this.hotDrinkTemp = bottleVolume;
     }
 
     @Override
     public String toString() {
-        return super.toString() + "\ntemp=" + hotDrinkVolume;
+        return super.toString() + "\ntemp=" + hotDrinkTemp;
     }
 
 }
