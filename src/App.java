@@ -22,9 +22,9 @@ public class App {
         Product item1 = new Product(100, 1, "Lays");
         Product item2 = new Product(50, 2, "Cola");
         Product item3 = new Bottle(150, 3, "Mineral Water", 101, (float) 1.5);
-        Product item4 = new HotDrink(150, 3, "Tea", 104, (int) 90);
-        Product item5 = new HotDrink(150, 3, "Koffee", 101, (int) 100);
-        Product item6 = new HotDrink(150, 3, "Hot chocolate", 101, (int) 100);
+        Product item4 = new HotDrink(130, 4, "Tea", 104, (int) 90);
+        Product item5 = new HotDrink(100, 5, "Koffee", 101, (int) 100);
+        Product item6 = new HotDrink(170, 6, "Hot chocolate", 101, (int) 100);
         assort.add(item1);
         assort.add(item2);
         assort.add(item3);
